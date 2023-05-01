@@ -7,12 +7,12 @@ type User = {
   name: string;
 };
 
-interface HeaderProps {
+export type HeaderProps = {
   user?: User;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
-}
+};
 
 export const Header = ({
   user,
