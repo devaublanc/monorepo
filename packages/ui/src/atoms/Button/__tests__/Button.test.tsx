@@ -1,4 +1,4 @@
-// create a vitest test hello world
+import { describe, it, expect } from "vitest";
 
 describe("Button", () => {
   it("hello world", () => {
